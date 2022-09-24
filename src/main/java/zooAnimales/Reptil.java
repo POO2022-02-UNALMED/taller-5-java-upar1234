@@ -24,14 +24,14 @@ public int cantidadReptiles() {
 public String movimiento() {
 	return "reptar";
 }
-public Reptil crearIguana(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
+public static Reptil crearIguana(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
 	iguanas++;
 	cantReptiles++;
 	Reptil iguana = new Reptil(nombre, edad, "humedal", genero, "verde", 3);
 	listado.add(iguana);
 	return iguana;
 }
-public Reptil crearSerpiente(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
+public static Reptil crearSerpiente(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
 	serpientes++;
 	cantReptiles++;
 	Reptil serpiente= new Reptil(nombre, edad, "jungla", genero, "blanco", 1);

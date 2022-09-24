@@ -25,13 +25,13 @@ public int cantidadAnfibios() {
 public String movimiento() {
 	return "saltar";
 }
-public Anfibio crearRana(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
+public static Anfibio crearRana(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
 	ranas++;
 	cantAnfibios++;
 	Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "rojo",true);
 	return rana;
 }
-public Anfibio crearSalamandra(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
+public static Anfibio crearSalamandra(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
 	salamandras++;
 	cantAnfibios++;
 	Anfibio salamandra = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);

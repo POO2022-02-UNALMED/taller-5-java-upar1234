@@ -24,7 +24,7 @@ public int cantidadPeces() {
 public String movimiento() {
 	return "nadar";
 }
-public Pez crearSalmon(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
+public static Pez crearSalmon(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
 	salmones++;
 	cantPeces++;
 	Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojo",6);
@@ -32,7 +32,7 @@ public Pez crearSalmon(String nombre, int edad, String habitat, String genero, S
 	return salmon;
 	
 }
-public Pez crearBacalao(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
+public static Pez crearBacalao(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
 	bacalaos++;
 	cantPeces++;
 	Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
