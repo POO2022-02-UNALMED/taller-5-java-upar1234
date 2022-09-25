@@ -62,7 +62,7 @@ public void setTotalAnimales(int ta) {
 	Animal.totalAnimales=ta;
 }
 public Zona getZona(){
-	return Zona;
+	return zona;
 }
 public void setZona(Zona z){
 	this.zona=z;
