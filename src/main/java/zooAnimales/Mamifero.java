@@ -31,7 +31,6 @@ public static Mamifero crearCaballo(String nombre, int edad, String genero) {
 	caballos++;
 	cantMamiferos++;
 	listado.add(caballo);
-	
 	return caballo;
 	}
 public static Mamifero crearLeon(String nombre, int edad, String genero) {
