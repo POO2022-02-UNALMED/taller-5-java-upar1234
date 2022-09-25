@@ -1,5 +1,9 @@
 package gestion;
 import zooAnimales.Animal;
+import zooAnimales.Ave;
+import zooAnimales.Mamifero;
+import zooAnimales.Pez;
+import zooAnimales.Reptil;
 import java.util.ArrayList;
 
 public class Zoologico {

@@ -9,11 +9,7 @@ public class Animal {
 	private String habitat;
 	private String genero;
 	private static Zona zona;
-	public static int cantMamiferos;
-	public static int cantAves;
-	public static int cantReptiles;
-	public static int cantPeces;
-	public static int cantAnfibios;
+
 public Animal() {
 	this(null,0,null,null);
 }
