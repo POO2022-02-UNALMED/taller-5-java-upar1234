@@ -16,7 +16,7 @@ public Anfibio (String nombre, int edad, String habitat, String genero, String c
 	this.colorPiel=colorPiel;
 	this.venenoso=venenoso;
 	cantidadAnfibios++;
-	cantAnfibios++;
+	
 }
 public Anfibio () {
 	this(null, 0, null, null, null, false);
@@ -30,14 +30,14 @@ public String movimiento() {
 public static Anfibio crearRana(String nombre, int edad, String genero) {
 	ranas++;
 	cantidadAnfibios++;
-	cantAnfibios++;
+	
 	Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "rojo",true);
 	return rana;
 }
 public static Anfibio crearSalamandra(String nombre, int edad, String genero) {
 	salamandras++;
 	cantidadAnfibios++;
-	cantAnfibios++;
+
 	Anfibio salamandra = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
 	listado.add(salamandra);
 	return salamandra;

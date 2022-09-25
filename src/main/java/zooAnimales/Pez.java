@@ -14,7 +14,7 @@ public Pez(String nombre, int edad, String habitat, String genero, String colorE
 	this.colorEscamas=colorEscamas;
 	this.cantidadAletas=cantidadAletas;
 	cantidadPeces++;
-	cantPeces++;
+
 }
 public Pez() {
 	this(null,0,null,null,null,0);
@@ -29,7 +29,7 @@ public String movimiento() {
 public static Pez crearSalmon(String nombre, int edad, String genero) {
 	salmones++;
 	cantidadPeces++;
-	cantPeces++;
+	
 	Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojo",6);
 	listado.add(salmon);
 	return salmon;
@@ -38,7 +38,7 @@ public static Pez crearSalmon(String nombre, int edad, String genero) {
 public static Pez crearBacalao(String nombre, int edad, String genero) {
 	bacalaos++;
 	cantidadPeces++;
-	cantPeces++;
+
 	Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
 	listado.add(bacalao);
 	return bacalao;
