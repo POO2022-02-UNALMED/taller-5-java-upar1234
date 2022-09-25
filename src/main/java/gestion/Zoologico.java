@@ -18,7 +18,7 @@ public void agregarZonas(Zona zona) {
 	zonas.add(zona);
 }
 public int cantidadTotalAnimales() {
-	 return (Animal.cantMamiferos+Animal.cantAves+Animal.cantReptiles+Animal.cantPeces+Animal.cantAnfibios);
+	 return (Mamifero.cantidadMamiferos()+Ave.cantidadAves()+Pez.cantidadPeces()+Reptil.cantidadReptiles()+Anfibio.cantidadAnfibios());
 	}
 public String getNombre() {
 	return nombre;
