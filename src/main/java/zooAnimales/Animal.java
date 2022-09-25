@@ -8,7 +8,7 @@ public class Animal extends Zona{
 	private int edad;
 	private String habitat;
 	private String genero;
-	private static ArrayList<Zona> zona;
+	private Zona zona;
 	public static int cantMamiferos;
 	public static int cantAves;
 	public static int cantReptiles;
@@ -24,10 +24,10 @@ public Animal(String nombre, int edad, String habitat, String genero) {
 	this.genero=genero;
 }
 	
-public String movimiento(){
+public static String movimiento(){
 	return "desplazarse";
 	}
-public String totalPorTipo() {
+public static String totalPorTipo() {
 	return ("Mamiferos: "+Mamifero.M+"/nAves: "+Ave.A+"/nReptil: "+Reptil.R+"/nPeces: "+Pez.P+"/nAnfibios: "+Anfibio.A);
 }
 
@@ -61,6 +61,13 @@ public int getTotalAnimales() {
 public void setTotalAnimales(int ta) {
 	Animal.totalAnimales=ta;
 }
+public Zona getZona(){
+	return Zona;
+}
+public void setZona(Zona z){
+	this.zona=z;
+}
+
 @Override
 public String toString() {
 	if (Animal.zona==null) {
