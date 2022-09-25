@@ -7,7 +7,7 @@ public class Reptil extends Animal {
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	private static int cantidadReptiles;
+	public static int cantidadReptiles;
 
 	
 public Reptil(String nombre, int edad,String habitat, String genero,String colorEscamas, int largoCola) {

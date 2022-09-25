@@ -8,7 +8,7 @@ public class Anfibio extends Animal{
 	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
-	private static int cantidadAnfibios;
+	public static int cantidadAnfibios;
 
 
 public Anfibio (String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
