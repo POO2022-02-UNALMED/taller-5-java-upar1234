@@ -44,7 +44,7 @@ public String getColorPiel() {
 public void setColorPiel(String ce) {
 	this.colorPiel=ce;
 }
-public boolean getVenenoso() {
+public boolean isVenenoso() {
 	return venenoso;
 }
 public void setVenenoso(boolean lc) {
