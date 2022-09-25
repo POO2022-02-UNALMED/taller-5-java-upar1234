@@ -40,7 +40,7 @@ public static Mamifero crearLeon(String nombre, int edad, String genero) {
 	listado.add(leon);
 	return leon;	
 	}
-public boolean getPelaje() {
+public boolean isPelaje() {
 	return pelaje;
 }
 public void setPelaje(boolean p) {
