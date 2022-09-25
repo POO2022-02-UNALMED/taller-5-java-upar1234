@@ -32,5 +32,8 @@ public String getUbicacion() {
 public void setUbicacion(String ubicacion) {
 	this.ubicacion=ubicacion;
 	}
+public ArrayList<Zona> getZona(){
+		return zonas;
+	}
 
 }
