@@ -32,11 +32,5 @@ public String getNombre() {
 public void setNombre(String nombre) {
 	this.nombre=nombre;
 }
-public Zona getZona(Zona z){
-	return z;
-}
-public void setZona(Zona z){
-	this.zona=z;
-}
 
 }
