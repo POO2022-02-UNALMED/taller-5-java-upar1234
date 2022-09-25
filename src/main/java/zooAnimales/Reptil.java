@@ -7,7 +7,7 @@ public class Reptil extends Animal {
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	public static int R=listado.size();
+
 	
 public Reptil(String nombre, int edad,String habitat, String genero,String colorEscamas, int largoCola) {
 	super(nombre,edad,habitat,genero);

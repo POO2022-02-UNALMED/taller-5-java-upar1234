@@ -28,7 +28,7 @@ public String movimiento(){
 	return "desplazarse";
 	}
 public static String totalPorTipo() {
-	return ("Mamiferos: "+Mamifero.M+"/nAves: "+Ave.A+"/nReptil: "+Reptil.R+"/nPeces: "+Pez.P+"/nAnfibios: "+Anfibio.A);
+	return ("Mamiferos: "+Mamifero.cantidadMamiferos()+"/nAves: "+Ave.cantidadAves()+"/nReptil: "+Reptil.cantidadReptiles()+"/nPeces: "+Pez.cantidadPeces()+"/nAnfibios: "+Anfibio.cantidadAnfibios());
 }
 
 public String getGenero() {

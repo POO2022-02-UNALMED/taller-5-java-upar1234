@@ -8,7 +8,7 @@ public class Mamifero extends Animal {
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
-	public static int M=listado.size();
+
 	
 	
 public Mamifero(String nombre, int edad, String habitat, String genero, boolean pelaje, int patas) {

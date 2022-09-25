@@ -6,7 +6,7 @@ public class Ave extends Animal{
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
-	public static int A=listado.size();
+
 	
 public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
 		super(nombre, edad, habitat, genero);
