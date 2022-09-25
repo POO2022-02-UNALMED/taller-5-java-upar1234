@@ -55,7 +55,7 @@ public String getHabitat() {
 public void setHabitat(String habitat) {
 	this.habitat=habitat;
 }
-public int getTotalAnimales() {
+public int getTotalAnimales() {	
 	return totalAnimales;
 }
 public void setTotalAnimales(int ta) {
@@ -71,10 +71,10 @@ public void setZona(Zona z){
 @Override
 public String toString() {
 	if (Animal.zona==null) {
-		return ("Mi nombre es "+ nombre + ", tengo una edad de "+ edad + ", habito en " + habitat + "y mi genero es " + genero);	
+		return ("Mi nombre es "+ getNombre() + ", tengo una edad de "+ getEdad() + ", habito en " + getHabitat() + "y mi genero es " + getGenero());	
 		}
 	else {
-		return("Mi nombre es "+ nombre + ", tengo una edad de "+ edad + ", habito en " + habitat + "y mi genero es " + genero + ", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre());
+		return("Mi nombre es "+ getNombre()+ ", tengo una edad de "+getEdad() + ", habito en " + getHabitat() + "y mi genero es " + getGenero() + ", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre());
 	}
 }
 
