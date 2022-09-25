@@ -36,7 +36,7 @@ public Zona getZona(Zona z){
 	return z;
 }
 public void setZona(Zona z){
-	this.zona=zona;
+	this.zona=z;
 }
 
 }
