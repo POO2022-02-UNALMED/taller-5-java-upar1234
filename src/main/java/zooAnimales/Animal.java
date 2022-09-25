@@ -2,7 +2,7 @@ package zooAnimales;
 import gestion.Zona;
 import java.util.ArrayList;
 
-public class Animal extends Zona{
+public class Animal {
 	private static int totalAnimales=(Animal.cantMamiferos+Animal.cantAves+Animal.cantReptiles+Animal.cantPeces+Animal.cantAnfibios);
 	private String nombre;
 	private int edad;
