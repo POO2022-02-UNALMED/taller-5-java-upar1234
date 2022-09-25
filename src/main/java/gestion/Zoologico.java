@@ -32,10 +32,5 @@ public String getUbicacion() {
 public void setUbicacion(String ubicacion) {
 	this.ubicacion=ubicacion;
 	}
-public Zona getZona(Zona z){
-		return zonas;
-	}
-public void setZona(Zona z){
-		this.zonas=z;
-	}
+
 }
