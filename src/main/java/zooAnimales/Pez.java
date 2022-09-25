@@ -21,6 +21,7 @@ public Pez() {
 public int cantidadPeces() {
 	return bacalaos+salmones;
 }
+
 public String movimiento() {
 	return "nadar";
 }

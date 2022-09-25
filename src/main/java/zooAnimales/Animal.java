@@ -24,7 +24,7 @@ public Animal(String nombre, int edad, String habitat, String genero) {
 	this.genero=genero;
 }
 	
-public static String movimiento(){
+public String movimiento(){
 	return "desplazarse";
 	}
 public static String totalPorTipo() {
