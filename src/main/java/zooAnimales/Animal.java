@@ -67,11 +67,11 @@ public void setZona(Zona z){
 @Override
 public String toString() {
 	if (Animal.zona!=null) {
-		return ("Mi nombre es "+ getNombre()+ ", tengo una edad de "+getEdad() + ", habito en " + getHabitat() + "y mi genero es " + getGenero() + ", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre()); 
+		return ("Mi nombre es "+ getNombre()+ ", tengo una edad de "+getEdad() + ", habito en " + getHabitat() + " y mi genero es " + getGenero() + ", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre()); 
 		
 		}
 	else {
-		return	("Mi nombre es "+ getNombre() + ", tengo una edad de "+ getEdad() + ", habito en " + getHabitat() + "y mi genero es " + getGenero());	
+		return	("Mi nombre es "+ getNombre() + ", tengo una edad de "+ getEdad() + ", habito en " + getHabitat() + " y mi genero es " + getGenero());	
 	}
 }
 
