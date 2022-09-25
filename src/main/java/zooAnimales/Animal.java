@@ -3,7 +3,7 @@ import gestion.Zona;
 import java.util.ArrayList;
 
 public class Animal {
-	private static int totalAnimales=(Animal.cantMamiferos+Animal.cantAves+Animal.cantReptiles+Animal.cantPeces+Animal.cantAnfibios);
+	private static int totalAnimales=(Mamifero.cantidadMamiferos()+Ave.cantidadAves()+Reptil.cantidadReptiles()+Pez.cantidadPeces()+Anfibio.cantidadAnfibios());
 	private String nombre;
 	private int edad;
 	private String habitat;
