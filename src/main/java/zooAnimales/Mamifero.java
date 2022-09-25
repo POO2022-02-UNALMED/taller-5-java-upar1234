@@ -53,4 +53,13 @@ public int getPatas() {
 public void setPatas(int p) {
 	this.patas=p;
 }
+public int getCaballos(){
+	return caballos;
+}
+public void setCaballos(int caballos){
+	this.caballos=caballos;
+}
+public int getLeones(int leones){
+	this.leones=leones;
+}
 }
