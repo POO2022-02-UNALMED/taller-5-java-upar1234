@@ -8,7 +8,7 @@ public class Animal extends Zona{
 	private int edad;
 	private String habitat;
 	private String genero;
-	private Zona zona;
+	private static Zona zona;
 	public static int cantMamiferos;
 	public static int cantAves;
 	public static int cantReptiles;
