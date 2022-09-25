@@ -59,7 +59,10 @@ public int getCaballos(){
 public void setCaballos(int caballos){
 	this.caballos=caballos;
 }
-public int getLeones(int leones){
-	this.leones=leones;
+public int getLeones(){
+	return leones;
+}
+public void setLeones(int l){
+	this.leones=l;
 }
 }
