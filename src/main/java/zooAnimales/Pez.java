@@ -18,7 +18,7 @@ public Pez(String nombre, int edad, String habitat, String genero, String colorE
 public Pez() {
 	this(null,0,null,null,null,0);
 }
-public int cantidadPeces() {
+public static int cantidadPeces() {
 	return bacalaos+salmones;
 }
 

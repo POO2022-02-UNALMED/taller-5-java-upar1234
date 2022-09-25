@@ -19,7 +19,7 @@ public Anfibio (String nombre, int edad, String habitat, String genero, String c
 public Anfibio () {
 	this(null, 0, null, null, null, false);
 }
-public int cantidadAnfibios() {
+public static int cantidadAnfibios() {
 	return ranas+salamandras;
 }
 public String movimiento() {

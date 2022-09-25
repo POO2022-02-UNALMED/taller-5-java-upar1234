@@ -17,7 +17,7 @@ public Ave () {
 	this(null,0,null,null,null);
 }
 
-public int cantidadAves(){
+public static int cantidadAves(){
 	return aguilas+halcones;
 	}
 public String movimiento() {

@@ -22,7 +22,7 @@ public Mamifero() {
 	this(null,0,null,null,false,0);
 }
 
-public int cantidadMamiferos() {
+public static int cantidadMamiferos() {
 	return caballos+leones;
 	}
 public static Mamifero crearCaballo(String nombre, int edad, String genero) {

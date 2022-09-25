@@ -18,7 +18,7 @@ public Reptil(String nombre, int edad,String habitat, String genero,String color
 public Reptil() {
 	this(null,0,null,null,null,0);
 }
-public int cantidadReptiles() {
+public static int cantidadReptiles() {
 	return iguanas+serpientes;
 }
 public String movimiento() {
