@@ -10,7 +10,7 @@ import zooAnimales.Anfibio;
 public class Zoologico {
 	private String nombre;
 	private String ubicacion;
-	private ArrayList<Zona> zonas;
+	private ArrayList<Zona> zonas=ArrayList<>();
 	
 public Zoologico() {
 	this(null, null);
