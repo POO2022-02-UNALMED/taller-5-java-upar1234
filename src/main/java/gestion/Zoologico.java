@@ -5,6 +5,7 @@ import zooAnimales.Mamifero;
 import zooAnimales.Pez;
 import zooAnimales.Reptil;
 import java.util.ArrayList;
+import zooAnimales.Anfibio;
 
 public class Zoologico {
 	private String nombre;
