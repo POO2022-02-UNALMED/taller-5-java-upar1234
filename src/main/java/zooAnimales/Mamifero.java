@@ -15,7 +15,7 @@ public Mamifero(String nombre, int edad, String habitat, String genero, boolean 
 	this.pelaje=pelaje;
 	this.patas=patas;
 	cantidadMamiferos++;
-	
+	cantMamiferos++;
 }
 public Mamifero() {
 	this(null,0,null,null,false,0);
@@ -29,12 +29,14 @@ public static Mamifero crearCaballo(String nombre, int edad, String genero) {
 	Mamifero caballo = new Mamifero(nombre, edad, "pradera", genero, true, 4); 
 	caballos++;
 	cantidadMamiferos++;
+	cantMamiferos++;
 	listado.add(caballo);
 	return caballo;
 	}
 public static Mamifero crearLeon(String nombre, int edad, String genero) {
 	leones++;
 	cantidadMamiferos++;
+	cantMamiferos++;
 	Mamifero leon=new Mamifero(nombre, edad, "selva", genero, true, 4);
 	listado.add(leon);
 	return leon;	
