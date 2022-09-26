@@ -16,6 +16,7 @@ public Anfibio (String nombre, int edad, String habitat, String genero, String c
 	this.colorPiel=colorPiel;
 	this.venenoso=venenoso;
 	cantidadAnfibios++;
+	listado= new ArrayList<>();
 	
 }
 public Anfibio () {

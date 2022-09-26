@@ -15,7 +15,7 @@ public Reptil(String nombre, int edad,String habitat, String genero,String color
 	this.colorEscamas=colorEscamas;
 	this.largoCola=largoCola;
 	cantidadReptiles++;
-
+	listado= new ArrayList<>();
 }
 public Reptil() {
 	this(null,0,null,null,null,0);

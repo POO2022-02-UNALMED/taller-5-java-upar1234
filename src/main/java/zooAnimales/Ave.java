@@ -12,7 +12,7 @@ public Ave(String nombre, int edad, String habitat, String genero, String colorP
 		super(nombre, edad, habitat, genero);
 		this.colorPlumas=colorPlumas;
 		cantidadAves++;
-
+		listado= new ArrayList<>();
 
 }
 public Ave () {

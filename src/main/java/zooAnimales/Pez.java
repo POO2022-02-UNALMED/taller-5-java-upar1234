@@ -14,6 +14,7 @@ public Pez(String nombre, int edad, String habitat, String genero, String colorE
 	this.colorEscamas=colorEscamas;
 	this.cantidadAletas=cantidadAletas;
 	cantidadPeces++;
+	listado= new ArrayList<>();
 
 }
 public Pez() {

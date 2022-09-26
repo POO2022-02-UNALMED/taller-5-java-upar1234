@@ -15,7 +15,7 @@ public Mamifero(String nombre, int edad, String habitat, String genero, boolean 
 	this.pelaje=pelaje;
 	this.patas=patas;
 	cantidadMamiferos++;
-
+	listado= new ArrayList<>();
 }
 public Mamifero() {
 	this(null,0,null,null,false,0);
