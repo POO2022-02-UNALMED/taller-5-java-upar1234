@@ -15,10 +15,10 @@ public class Zoologico {
 public Zoologico() {
 	this(null, null, null);
 }
-public Zoologico (String nombre, String ubicacion, ArrayList<> zonas){
+public Zoologico (String nombre, String ubicacion){
 	this.nombre=nombre;
 	this.ubicacion=ubicacion;
-	this.zonas=zonas;
+	zonas=new ArrayList<>()
 }
 public void agregarZonas(Zona zona) {
 	zonas.add(zona);
