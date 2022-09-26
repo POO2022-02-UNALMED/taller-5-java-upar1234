@@ -23,7 +23,7 @@ public Zoologico (String nombre, String ubicacion){
 public void agregarZonas(Zona zona) {
 	zonas.add(zona);
 }
-public int cantidadTotalAnimales() {
+public static int cantidadTotalAnimales() {
 	 return (Mamifero.cantidadMamiferos()+Ave.cantidadAves()+Pez.cantidadPeces()+Reptil.cantidadReptiles()+Anfibio.cantidadAnfibios());
 	}
 public String getNombre() {
