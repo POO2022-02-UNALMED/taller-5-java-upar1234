@@ -13,7 +13,7 @@ public class Zoologico {
 	private ArrayList<Zona> zonas;
 	
 public Zoologico() {
-	this(null, null, null);
+	this(null, null);
 }
 public Zoologico (String nombre, String ubicacion){
 	this.nombre=nombre;
